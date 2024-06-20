@@ -1,0 +1,78 @@
+figure{
+    text-align: center;
+}
+
+p{
+    font-family: 'MinhaFonte';
+    margin-top: 150px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+}
+
+.p segundo{
+    font-size: 10px;
+}
+
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url(../fonts/EURO___.TTF) format('truetype');
+}
+
+@font-face {
+    font-family: 'Botao';
+    src: url("https://use.typekit.net/xlw6jrq.css");
+}
+
+header h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'MinhaFonte';
+}
+
+body{
+    margin: 0;
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0)
+}
+
+}
+
+.container {
+    position: relative;
+    width: 100%; /* Ajuste conforme necessário */
+    max-width: 600px; /* Ajuste conforme necessário */
+    margin: auto;
+}
+
+.container p{
+    position: absolute;
+    top: 20%;
+}
+
+.container img {
+    display: block;
+    width: 40%;
+    height: auto;
+    margin-left: 400px;
+    opacity: 0.1;
+}
+
+.containerdois p {
+    position: absolute;
+    top: 80%; /* Ajuste a posição vertical conforme necessário */
+    left: 50%; /* Ajuste a posição horizontal conforme necessário */
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0); /* Cor do texto */
+    font-size: 40px; /* Tamanho da fonte */
+    text-align: center; /* Alinhamento do texto */
+    padding: 1px; /* Espaçamento interno do texto */
+}
+
+figure img{
+    opacity: 0.1;
+    border-radius: 20px;
+}
+
+
